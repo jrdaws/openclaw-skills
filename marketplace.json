@@ -1,0 +1,46 @@
+{
+  "name": "openclaw-skills",
+  "version": "1.0.0",
+  "description": "The only AI skills that find niches, buy domains, build sites, write content, and track revenue — all autonomously.",
+  "author": "OpenClaw",
+  "homepage": "https://github.com/openclaw/openclaw-skills",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "niche-finder",
+      "path": "skills/niche-finder",
+      "description": "Discovers profitable niches from trends + domains + consensus",
+      "tags": ["business", "intelligence", "niche", "trends"]
+    },
+    {
+      "name": "site-factory",
+      "path": "skills/site-factory",
+      "description": "Domain → deployable Next.js site in one command",
+      "tags": ["web", "nextjs", "seo", "scaffold"]
+    },
+    {
+      "name": "intelligence-radar",
+      "path": "skills/intelligence-radar",
+      "description": "86-source OSINT pipeline with Ollama consensus",
+      "tags": ["intelligence", "osint", "research", "monitoring"]
+    },
+    {
+      "name": "domain-sniper",
+      "path": "skills/domain-sniper",
+      "description": "Trend-to-domain intersection + auto-acquisition",
+      "tags": ["domains", "whois", "acquisition", "trends"]
+    },
+    {
+      "name": "content-engine",
+      "path": "skills/content-engine",
+      "description": "Intelligence-driven SEO blog posts with affiliate links",
+      "tags": ["content", "seo", "blog", "affiliate"]
+    },
+    {
+      "name": "revenue-tracker",
+      "path": "skills/revenue-tracker",
+      "description": "Full-loop ROI tracking: intelligence → revenue",
+      "tags": ["revenue", "roi", "analytics", "portfolio"]
+    }
+  ]
+}
