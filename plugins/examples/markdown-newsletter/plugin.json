@@ -1,0 +1,35 @@
+{
+  "name": "markdown-newsletter",
+  "type": "content-format",
+  "version": "1.0.0",
+  "description": "Formats intelligence findings into a weekly Markdown newsletter",
+  "author": "community",
+  "entry": "formatter.py",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "newsletter_name": {
+        "type": "string",
+        "description": "Name of the newsletter",
+        "default": "Intelligence Briefing"
+      },
+      "max_items": {
+        "type": "integer",
+        "description": "Maximum number of findings to include",
+        "default": 20
+      },
+      "include_metadata": {
+        "type": "boolean",
+        "description": "Include source metadata in each item",
+        "default": false
+      },
+      "sections": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Category sections to include (empty = all)",
+        "default": []
+      }
+    }
+  },
+  "tags": ["newsletter", "markdown", "content-format"]
+}

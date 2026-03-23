@@ -1,0 +1,42 @@
+{
+  "niche": "micro-saas",
+  "display_name": "Micro SaaS",
+  "keywords": [
+    "micro saas",
+    "indie hacker",
+    "saas boilerplate",
+    "one person saas",
+    "solo founder",
+    "bootstrap saas",
+    "saas starter kit",
+    "mrr",
+    "monthly recurring revenue",
+    "saas metrics",
+    "churn rate",
+    "lifetime value saas"
+  ],
+  "competitors": [
+    "indiehackers.com",
+    "microconf.com",
+    "saasclub.io",
+    "failory.com",
+    "starterstory.com",
+    "acquire.com"
+  ],
+  "domains": [
+    "microsaas.com",
+    "tinysaas.com",
+    "solofounder.com",
+    "bootstrapsaas.com",
+    "saasplaybook.com",
+    "onesaas.com"
+  ],
+  "source_categories": [
+    "news",
+    "community",
+    "competitors",
+    "academic"
+  ],
+  "default_tier": "T2",
+  "notes": "Focused on the indie/bootstrap SaaS ecosystem. Tracks product launches, revenue milestones, acquisition activity, and tooling trends."
+}

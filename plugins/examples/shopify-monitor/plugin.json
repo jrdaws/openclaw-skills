@@ -1,0 +1,35 @@
+{
+  "name": "shopify-monitor",
+  "type": "source-adapter",
+  "version": "1.0.0",
+  "description": "Monitors Shopify stores for product/pricing changes",
+  "author": "community",
+  "entry": "adapter.py",
+  "config_schema": {
+    "type": "object",
+    "properties": {
+      "store_urls": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "List of Shopify store URLs to monitor (e.g., https://store.myshopify.com)"
+      },
+      "check_prices": {
+        "type": "boolean",
+        "description": "Track price changes",
+        "default": true
+      },
+      "check_inventory": {
+        "type": "boolean",
+        "description": "Track out-of-stock events",
+        "default": true
+      },
+      "check_new_products": {
+        "type": "boolean",
+        "description": "Detect new product listings",
+        "default": true
+      }
+    },
+    "required": ["store_urls"]
+  },
+  "tags": ["ecommerce", "shopify", "monitoring", "pricing"]
+}

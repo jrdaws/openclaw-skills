@@ -1,0 +1,10 @@
+{
+  "name": "saas-niche-template",
+  "type": "niche-template",
+  "version": "1.0.0",
+  "description": "Pre-configured niche template for micro SaaS intelligence",
+  "author": "community",
+  "entry": "template.json",
+  "config_schema": {},
+  "tags": ["saas", "indie-hacker", "niche-template"]
+}
